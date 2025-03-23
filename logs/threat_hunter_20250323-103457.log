@@ -1,0 +1,5 @@
+2025-03-23 10:34:57,746 - threat_hunter - INFO - Logging initialized. Log file: logs\threat_hunter_20250323-103457.log
+2025-03-23 10:34:57,747 - threat_hunter.anomaly_detection - INFO - Initialized new model. Training required.
+2025-03-23 10:34:57,747 - threat_hunter.threat_hunter - INFO - Running in detection mode
+2025-03-23 10:34:57,748 - threat_hunter.threat_hunter - INFO - Starting packet capture on interface wlan0
+2025-03-23 10:34:57,785 - threat_hunter.threat_hunter - ERROR - Error during packet capture: Interface 'wlan0' not found !

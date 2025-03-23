@@ -74,7 +74,7 @@ def main():
     # Setup logging
     setup_logging(
         log_level=config['logging']['level'],
-        log_file=os.path.join(config['paths']['logs_dir'], 'threat_hunter.log')
+        log_dir=config['paths']['logs_dir']
     )
 
     logger = logging.getLogger(__name__)

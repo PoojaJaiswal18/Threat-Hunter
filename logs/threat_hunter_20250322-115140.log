@@ -1,0 +1,5 @@
+2025-03-22 11:51:40,789 - threat_hunter - INFO - Logging initialized. Log file: logs\threat_hunter_20250322-115140.log
+2025-03-22 11:51:40,789 - threat_hunter.anomaly_detection - INFO - Initialized new model. Training required.
+2025-03-22 11:51:40,789 - threat_hunter.threat_hunter - INFO - Running in detection mode
+2025-03-22 11:51:40,790 - threat_hunter.threat_hunter - INFO - Starting packet capture on interface eth0
+2025-03-22 11:51:40,821 - threat_hunter.threat_hunter - ERROR - Error during packet capture: Interface 'eth0' not found !

@@ -1,0 +1,4 @@
+2025-03-23 10:35:51,669 - threat_hunter - INFO - Logging initialized. Log file: logs\threat_hunter_20250323-103551.log
+2025-03-23 10:35:51,670 - threat_hunter.anomaly_detection - INFO - Initialized new model. Training required.
+2025-03-23 10:35:51,670 - threat_hunter.threat_hunter - INFO - Running in detection mode
+2025-03-23 10:35:51,671 - threat_hunter.threat_hunter - INFO - Starting packet capture on interface Wi-Fi
