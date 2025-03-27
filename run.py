@@ -22,7 +22,8 @@ def parse_arguments():
     parser.add_argument('-i', '--interface',
                         help='Network interface to capture packets from')
 
-    parser.add_argument('-m', '--model',
+    parser.add_argument(
+        '-m', '--model',
                         help='Path to anomaly detection model file')
 
     parser.add_argument('-w', '--window', type=int,

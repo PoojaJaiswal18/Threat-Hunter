@@ -1,0 +1,64 @@
+2025-03-23 12:33:24,646 - __main__ - INFO - Starting Proactive Threat Hunter
+2025-03-23 12:33:24,647 - __main__ - INFO - Network Interface: wifi
+2025-03-23 12:33:24,647 - __main__ - INFO - Model Path: models/threat_model.pkl
+2025-03-23 12:33:24,649 - __main__ - INFO - Window Size: 100
+2025-03-23 12:33:24,649 - __main__ - INFO - Mode: Detection
+2025-03-23 12:33:24,650 - __main__ - INFO - Running in detection mode
+2025-03-23 12:33:24,650 - __main__ - INFO - Loading model from models/threat_model.pkl
+2025-03-23 12:33:24,651 - __main__ - INFO - Capturing traffic on interface wifi
+2025-03-23 12:33:24,651 - __main__ - INFO - Using window size of 100 packets
+2025-03-23 12:33:24,651 - __main__ - INFO - Detection mode running. Press Ctrl+C to stop.
+2025-03-23 13:01:44,203 - __main__ - INFO - Detection stopped by user
+2025-03-23 13:01:44,204 - __main__ - INFO - Shutting down Proactive Threat Hunter
+2025-03-24 12:21:21,311 - __main__ - INFO - Starting Proactive Threat Hunter
+2025-03-24 12:21:21,332 - __main__ - INFO - Network Interface: Wi-Fi
+2025-03-24 12:21:21,334 - __main__ - INFO - Model Path: D:\Threat Hunter\models\threat_model.pkl
+2025-03-24 12:21:21,334 - __main__ - INFO - Window Size: 100
+2025-03-24 12:21:21,335 - __main__ - INFO - Mode: Detection
+2025-03-24 12:21:21,335 - __main__ - INFO - Running in detection mode
+2025-03-24 12:21:21,336 - __main__ - INFO - Loading model from D:\Threat Hunter\models\threat_model.pkl
+2025-03-24 12:21:21,337 - __main__ - INFO - Capturing traffic on interface Wi-Fi
+2025-03-24 12:21:21,338 - __main__ - INFO - Using window size of 100 packets
+2025-03-24 12:21:21,338 - __main__ - INFO - Detection mode running. Press Ctrl+C to stop.
+2025-03-24 12:25:29,561 - __main__ - INFO - Detection stopped by user
+2025-03-24 12:25:29,562 - __main__ - INFO - Shutting down Proactive Threat Hunter
+2025-03-24 12:36:55,440 - __main__ - INFO - Starting Proactive Threat Hunter
+2025-03-24 12:36:55,441 - __main__ - INFO - Network Interface: wifi
+2025-03-24 12:36:55,441 - __main__ - INFO - Model Path: D:\Threat Hunter\models\threat_model.pkl
+2025-03-24 12:36:55,441 - __main__ - INFO - Window Size: 100
+2025-03-24 12:36:55,442 - __main__ - INFO - Mode: Training
+2025-03-24 12:36:55,442 - __main__ - INFO - Running in training mode
+2025-03-24 12:36:55,442 - __main__ - INFO - Training model using data from live capture
+2025-03-24 12:36:55,442 - __main__ - INFO - Model training completed
+2025-03-24 12:36:55,442 - __main__ - INFO - Model saved to D:\Threat Hunter\models\threat_model.pkl
+2025-03-24 12:36:55,442 - __main__ - INFO - Shutting down Proactive Threat Hunter
+2025-03-24 12:53:00,444 - __main__ - INFO - Starting Proactive Threat Hunter
+2025-03-24 12:53:00,445 - __main__ - INFO - Network Interface: wifi
+2025-03-24 12:53:00,445 - __main__ - INFO - Model Path: D:\Threat Hunter\models\threat_model.pkl
+2025-03-24 12:53:00,446 - __main__ - INFO - Window Size: 500
+2025-03-24 12:53:00,446 - __main__ - INFO - Mode: Training
+2025-03-24 12:53:00,446 - __main__ - INFO - Running in training mode
+2025-03-24 12:53:00,446 - __main__ - INFO - Training model using data from live capture
+2025-03-24 12:53:00,446 - __main__ - INFO - Model training completed
+2025-03-24 12:53:00,446 - __main__ - INFO - Model saved to D:\Threat Hunter\models\threat_model.pkl
+2025-03-24 12:53:00,447 - __main__ - INFO - Shutting down Proactive Threat Hunter
+2025-03-24 12:56:43,886 - __main__ - INFO - Starting Proactive Threat Hunter
+2025-03-24 12:56:43,913 - __main__ - INFO - Network Interface: Wi-Fi
+2025-03-24 12:56:43,915 - __main__ - INFO - Model Path: D:\Threat Hunter\models\threat_model.pkl
+2025-03-24 12:56:43,927 - __main__ - INFO - Window Size: 100
+2025-03-24 12:56:43,959 - __main__ - INFO - Mode: Training
+2025-03-24 12:56:44,008 - __main__ - INFO - Running in training mode
+2025-03-24 12:56:44,043 - __main__ - INFO - Training model using data from live capture
+2025-03-24 12:56:44,082 - __main__ - INFO - Model training completed
+2025-03-24 12:56:44,117 - __main__ - INFO - Model saved to D:\Threat Hunter\models\threat_model.pkl
+2025-03-24 12:56:44,131 - __main__ - INFO - Shutting down Proactive Threat Hunter
+2025-03-24 12:57:17,251 - __main__ - INFO - Starting Proactive Threat Hunter
+2025-03-24 12:57:17,266 - __main__ - INFO - Network Interface: Wi-Fi
+2025-03-24 12:57:17,266 - __main__ - INFO - Model Path: D:\Threat Hunter\models\threat_model.pkl
+2025-03-24 12:57:17,268 - __main__ - INFO - Window Size: 100
+2025-03-24 12:57:17,268 - __main__ - INFO - Mode: Training
+2025-03-24 12:57:17,268 - __main__ - INFO - Running in training mode
+2025-03-24 12:57:17,269 - __main__ - INFO - Training model using data from live capture
+2025-03-24 12:57:17,269 - __main__ - INFO - Model training completed
+2025-03-24 12:57:17,284 - __main__ - INFO - Model saved to D:\Threat Hunter\models\threat_model.pkl
+2025-03-24 12:57:17,295 - __main__ - INFO - Shutting down Proactive Threat Hunter

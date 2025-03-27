@@ -1,0 +1,31 @@
+2025-03-27 15:26:26,575 - threat_hunter - INFO - Logging initialized. Log file: logs\threat_hunter_20250327-152626.log
+2025-03-27 15:26:26,585 - threat_hunter.anomaly_detection - INFO - Initialized new model. Training required.
+2025-03-27 15:26:26,607 - threat_hunter.threat_hunter - INFO - Running in training mode
+2025-03-27 15:26:26,609 - threat_hunter.threat_hunter - INFO - Starting packet capture on interface Wi-Fi
+2025-03-27 15:26:37,668 - threat_hunter.threat_hunter - INFO - Collected training sample: 1 samples so far
+2025-03-27 15:27:07,244 - threat_hunter.threat_hunter - INFO - Collected training sample: 2 samples so far
+2025-03-27 15:27:12,394 - threat_hunter.threat_hunter - INFO - Collected training sample: 3 samples so far
+2025-03-27 15:27:13,012 - threat_hunter.threat_hunter - INFO - Collected training sample: 4 samples so far
+2025-03-27 15:27:13,474 - threat_hunter.threat_hunter - INFO - Collected training sample: 5 samples so far
+2025-03-27 15:27:13,796 - threat_hunter.threat_hunter - INFO - Collected training sample: 6 samples so far
+2025-03-27 15:27:14,188 - threat_hunter.threat_hunter - INFO - Collected training sample: 7 samples so far
+2025-03-27 15:27:14,599 - threat_hunter.threat_hunter - INFO - Collected training sample: 8 samples so far
+2025-03-27 15:27:15,040 - threat_hunter.threat_hunter - INFO - Collected training sample: 9 samples so far
+2025-03-27 15:27:15,462 - threat_hunter.threat_hunter - INFO - Collected training sample: 10 samples so far
+2025-03-27 15:27:15,923 - threat_hunter.threat_hunter - INFO - Collected training sample: 11 samples so far
+2025-03-27 15:27:26,499 - threat_hunter.threat_hunter - INFO - Collected training sample: 12 samples so far
+2025-03-27 15:27:26,947 - threat_hunter.threat_hunter - INFO - Collected training sample: 13 samples so far
+2025-03-27 15:27:27,088 - threat_hunter.threat_hunter - INFO - Collected training sample: 14 samples so far
+2025-03-27 15:27:27,301 - threat_hunter.threat_hunter - INFO - Collected training sample: 15 samples so far
+2025-03-27 15:27:27,578 - threat_hunter.threat_hunter - INFO - Collected training sample: 16 samples so far
+2025-03-27 15:27:27,732 - threat_hunter.threat_hunter - INFO - Collected training sample: 17 samples so far
+2025-03-27 15:27:30,007 - threat_hunter.threat_hunter - INFO - Collected training sample: 18 samples so far
+2025-03-27 15:27:52,711 - threat_hunter.threat_hunter - INFO - Collected training sample: 19 samples so far
+2025-03-27 15:27:56,296 - threat_hunter.threat_hunter - INFO - Collected training sample: 20 samples so far
+2025-03-27 15:28:11,640 - threat_hunter.threat_hunter - INFO - Collected training sample: 21 samples so far
+2025-03-27 15:28:18,458 - threat_hunter.threat_hunter - INFO - Collected training sample: 22 samples so far
+2025-03-27 15:28:22,997 - threat_hunter.threat_hunter - INFO - Using 22 collected training samples
+2025-03-27 15:28:23,037 - threat_hunter.anomaly_detection - INFO - Training model with 22 samples...
+2025-03-27 15:28:23,116 - threat_hunter.anomaly_detection - INFO - Applied PCA, reduced dimensions from 25 to 10
+2025-03-27 15:28:24,341 - threat_hunter.anomaly_detection - INFO - Model training complete
+2025-03-27 15:28:24,471 - threat_hunter.anomaly_detection - INFO - Model saved to models\anomaly_detection_model.pkl

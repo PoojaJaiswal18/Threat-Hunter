@@ -1,0 +1,104 @@
+2025-03-24 13:49:33,941 - threat_hunter - INFO - Logging initialized. Log file: logs\threat_hunter_20250324-134933.log
+2025-03-24 13:49:33,960 - threat_hunter.anomaly_detection - INFO - Model loaded from models\threat_model.pkl
+2025-03-24 13:49:33,961 - threat_hunter.anomaly_detection - INFO - Loaded pre-trained model from models\threat_model.pkl
+2025-03-24 13:49:33,962 - threat_hunter.threat_hunter - INFO - Running in training mode
+2025-03-24 13:49:33,966 - threat_hunter.threat_hunter - INFO - Starting packet capture on interface Wi-Fi
+2025-03-24 13:49:46,237 - threat_hunter.threat_hunter - INFO - Collected training sample: 1 samples so far
+2025-03-24 13:49:54,116 - threat_hunter.threat_hunter - INFO - Collected training sample: 2 samples so far
+2025-03-24 13:49:57,723 - threat_hunter.threat_hunter - INFO - Collected training sample: 3 samples so far
+2025-03-24 13:50:05,000 - threat_hunter.threat_hunter - INFO - Collected training sample: 4 samples so far
+2025-03-24 13:50:07,230 - threat_hunter.threat_hunter - INFO - Collected training sample: 5 samples so far
+2025-03-24 13:50:13,998 - threat_hunter.threat_hunter - INFO - Collected training sample: 6 samples so far
+2025-03-24 13:50:19,490 - threat_hunter.threat_hunter - INFO - Collected training sample: 7 samples so far
+2025-03-24 13:50:25,504 - threat_hunter.threat_hunter - INFO - Collected training sample: 8 samples so far
+2025-03-24 13:50:25,783 - threat_hunter.threat_hunter - INFO - Collected training sample: 9 samples so far
+2025-03-24 13:50:26,092 - threat_hunter.threat_hunter - INFO - Collected training sample: 10 samples so far
+2025-03-24 13:50:26,391 - threat_hunter.threat_hunter - INFO - Collected training sample: 11 samples so far
+2025-03-24 13:50:26,623 - threat_hunter.threat_hunter - INFO - Collected training sample: 12 samples so far
+2025-03-24 13:50:26,860 - threat_hunter.threat_hunter - INFO - Collected training sample: 13 samples so far
+2025-03-24 13:50:27,114 - threat_hunter.threat_hunter - INFO - Collected training sample: 14 samples so far
+2025-03-24 13:50:27,503 - threat_hunter.threat_hunter - INFO - Collected training sample: 15 samples so far
+2025-03-24 13:50:27,786 - threat_hunter.threat_hunter - INFO - Collected training sample: 16 samples so far
+2025-03-24 13:50:28,051 - threat_hunter.threat_hunter - INFO - Collected training sample: 17 samples so far
+2025-03-24 13:50:39,478 - threat_hunter.threat_hunter - INFO - Collected training sample: 18 samples so far
+2025-03-24 13:50:46,485 - threat_hunter.threat_hunter - INFO - Collected training sample: 19 samples so far
+2025-03-24 13:50:56,967 - threat_hunter.threat_hunter - INFO - Collected training sample: 20 samples so far
+2025-03-24 13:50:57,656 - threat_hunter.threat_hunter - INFO - Collected training sample: 21 samples so far
+2025-03-24 13:50:58,011 - threat_hunter.threat_hunter - INFO - Collected training sample: 22 samples so far
+2025-03-24 13:50:58,345 - threat_hunter.threat_hunter - INFO - Collected training sample: 23 samples so far
+2025-03-24 13:50:58,610 - threat_hunter.threat_hunter - INFO - Collected training sample: 24 samples so far
+2025-03-24 13:51:04,321 - threat_hunter.threat_hunter - INFO - Collected training sample: 25 samples so far
+2025-03-24 13:51:13,773 - threat_hunter.threat_hunter - INFO - Collected training sample: 26 samples so far
+2025-03-24 13:51:14,271 - threat_hunter.threat_hunter - INFO - Collected training sample: 27 samples so far
+2025-03-24 13:51:14,664 - threat_hunter.threat_hunter - INFO - Collected training sample: 28 samples so far
+2025-03-24 13:51:15,142 - threat_hunter.threat_hunter - INFO - Collected training sample: 29 samples so far
+2025-03-24 13:51:15,544 - threat_hunter.threat_hunter - INFO - Collected training sample: 30 samples so far
+2025-03-24 13:51:15,943 - threat_hunter.threat_hunter - INFO - Collected training sample: 31 samples so far
+2025-03-24 13:51:16,340 - threat_hunter.threat_hunter - INFO - Collected training sample: 32 samples so far
+2025-03-24 13:51:16,997 - threat_hunter.threat_hunter - INFO - Collected training sample: 33 samples so far
+2025-03-24 13:51:17,253 - threat_hunter.threat_hunter - INFO - Collected training sample: 34 samples so far
+2025-03-24 13:51:17,524 - threat_hunter.threat_hunter - INFO - Collected training sample: 35 samples so far
+2025-03-24 13:51:18,025 - threat_hunter.threat_hunter - INFO - Collected training sample: 36 samples so far
+2025-03-24 13:51:18,441 - threat_hunter.threat_hunter - INFO - Collected training sample: 37 samples so far
+2025-03-24 13:51:18,847 - threat_hunter.threat_hunter - INFO - Collected training sample: 38 samples so far
+2025-03-24 13:51:19,188 - threat_hunter.threat_hunter - INFO - Collected training sample: 39 samples so far
+2025-03-24 13:51:19,619 - threat_hunter.threat_hunter - INFO - Collected training sample: 40 samples so far
+2025-03-24 13:51:20,082 - threat_hunter.threat_hunter - INFO - Collected training sample: 41 samples so far
+2025-03-24 13:51:20,509 - threat_hunter.threat_hunter - INFO - Collected training sample: 42 samples so far
+2025-03-24 13:51:20,970 - threat_hunter.threat_hunter - INFO - Collected training sample: 43 samples so far
+2025-03-24 13:51:21,393 - threat_hunter.threat_hunter - INFO - Collected training sample: 44 samples so far
+2025-03-24 13:51:21,780 - threat_hunter.threat_hunter - INFO - Collected training sample: 45 samples so far
+2025-03-24 13:51:21,979 - threat_hunter.threat_hunter - INFO - Collected training sample: 46 samples so far
+2025-03-24 13:51:22,291 - threat_hunter.threat_hunter - INFO - Collected training sample: 47 samples so far
+2025-03-24 13:51:22,819 - threat_hunter.threat_hunter - INFO - Collected training sample: 48 samples so far
+2025-03-24 13:51:23,151 - threat_hunter.threat_hunter - INFO - Collected training sample: 49 samples so far
+2025-03-24 13:51:23,478 - threat_hunter.threat_hunter - INFO - Collected training sample: 50 samples so far
+2025-03-24 13:51:23,730 - threat_hunter.threat_hunter - INFO - Collected training sample: 51 samples so far
+2025-03-24 13:51:23,927 - threat_hunter.threat_hunter - INFO - Collected training sample: 52 samples so far
+2025-03-24 13:51:24,151 - threat_hunter.threat_hunter - INFO - Collected training sample: 53 samples so far
+2025-03-24 13:51:24,344 - threat_hunter.threat_hunter - INFO - Collected training sample: 54 samples so far
+2025-03-24 13:51:24,539 - threat_hunter.threat_hunter - INFO - Collected training sample: 55 samples so far
+2025-03-24 13:51:24,842 - threat_hunter.threat_hunter - INFO - Collected training sample: 56 samples so far
+2025-03-24 13:51:25,085 - threat_hunter.threat_hunter - INFO - Collected training sample: 57 samples so far
+2025-03-24 13:51:25,321 - threat_hunter.threat_hunter - INFO - Collected training sample: 58 samples so far
+2025-03-24 13:51:25,610 - threat_hunter.threat_hunter - INFO - Collected training sample: 59 samples so far
+2025-03-24 13:51:25,836 - threat_hunter.threat_hunter - INFO - Collected training sample: 60 samples so far
+2025-03-24 13:51:26,085 - threat_hunter.threat_hunter - INFO - Collected training sample: 61 samples so far
+2025-03-24 13:51:26,423 - threat_hunter.threat_hunter - INFO - Collected training sample: 62 samples so far
+2025-03-24 13:51:26,745 - threat_hunter.threat_hunter - INFO - Collected training sample: 63 samples so far
+2025-03-24 13:51:27,070 - threat_hunter.threat_hunter - INFO - Collected training sample: 64 samples so far
+2025-03-24 13:51:27,373 - threat_hunter.threat_hunter - INFO - Collected training sample: 65 samples so far
+2025-03-24 13:51:27,618 - threat_hunter.threat_hunter - INFO - Collected training sample: 66 samples so far
+2025-03-24 13:51:27,884 - threat_hunter.threat_hunter - INFO - Collected training sample: 67 samples so far
+2025-03-24 13:51:28,141 - threat_hunter.threat_hunter - INFO - Collected training sample: 68 samples so far
+2025-03-24 13:51:28,403 - threat_hunter.threat_hunter - INFO - Collected training sample: 69 samples so far
+2025-03-24 13:51:28,718 - threat_hunter.threat_hunter - INFO - Collected training sample: 70 samples so far
+2025-03-24 13:51:28,932 - threat_hunter.threat_hunter - INFO - Collected training sample: 71 samples so far
+2025-03-24 13:51:29,175 - threat_hunter.threat_hunter - INFO - Collected training sample: 72 samples so far
+2025-03-24 13:51:29,501 - threat_hunter.threat_hunter - INFO - Collected training sample: 73 samples so far
+2025-03-24 13:51:29,852 - threat_hunter.threat_hunter - INFO - Collected training sample: 74 samples so far
+2025-03-24 13:51:30,507 - threat_hunter.threat_hunter - INFO - Collected training sample: 75 samples so far
+2025-03-24 13:51:34,434 - threat_hunter.threat_hunter - INFO - Collected training sample: 76 samples so far
+2025-03-24 13:51:35,160 - threat_hunter.threat_hunter - INFO - Collected training sample: 77 samples so far
+2025-03-24 13:51:35,664 - threat_hunter.threat_hunter - INFO - Collected training sample: 78 samples so far
+2025-03-24 13:51:35,971 - threat_hunter.threat_hunter - INFO - Collected training sample: 79 samples so far
+2025-03-24 13:51:36,333 - threat_hunter.threat_hunter - INFO - Collected training sample: 80 samples so far
+2025-03-24 13:51:36,669 - threat_hunter.threat_hunter - INFO - Collected training sample: 81 samples so far
+2025-03-24 13:51:36,888 - threat_hunter.threat_hunter - INFO - Collected training sample: 82 samples so far
+2025-03-24 13:51:37,223 - threat_hunter.threat_hunter - INFO - Collected training sample: 83 samples so far
+2025-03-24 13:51:37,577 - threat_hunter.threat_hunter - INFO - Collected training sample: 84 samples so far
+2025-03-24 13:51:37,839 - threat_hunter.threat_hunter - INFO - Collected training sample: 85 samples so far
+2025-03-24 13:51:38,124 - threat_hunter.threat_hunter - INFO - Collected training sample: 86 samples so far
+2025-03-24 13:51:38,351 - threat_hunter.threat_hunter - INFO - Collected training sample: 87 samples so far
+2025-03-24 13:51:38,675 - threat_hunter.threat_hunter - INFO - Collected training sample: 88 samples so far
+2025-03-24 13:51:39,015 - threat_hunter.threat_hunter - INFO - Collected training sample: 89 samples so far
+2025-03-24 13:51:39,581 - threat_hunter.threat_hunter - INFO - Collected training sample: 90 samples so far
+2025-03-24 13:51:40,081 - threat_hunter.threat_hunter - INFO - Collected training sample: 91 samples so far
+2025-03-24 13:51:40,335 - threat_hunter.threat_hunter - INFO - Collected training sample: 92 samples so far
+2025-03-24 13:51:40,648 - threat_hunter.threat_hunter - INFO - Collected training sample: 93 samples so far
+2025-03-24 13:51:42,883 - threat_hunter.threat_hunter - INFO - Collected training sample: 94 samples so far
+2025-03-24 13:51:43,389 - threat_hunter.threat_hunter - INFO - Using 94 collected training samples
+2025-03-24 13:51:43,395 - threat_hunter.anomaly_detection - INFO - Training model with 94 samples...
+2025-03-24 13:51:43,417 - threat_hunter.anomaly_detection - INFO - Applied PCA, reduced dimensions from 25 to 10
+2025-03-24 13:51:44,340 - threat_hunter.anomaly_detection - INFO - Model training complete
+2025-03-24 13:51:44,373 - threat_hunter.anomaly_detection - INFO - Model saved to models\threat_model.pkl

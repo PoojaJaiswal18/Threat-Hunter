@@ -1,80 +1,74 @@
-"""Configuration settings for the Proactive Threat Hunter."""
-
 import os
 import json
 import logging
 
-# Default configuration
-DEFAULT_CONFIG = {
-    'network': {
-        'interface': 'eth0'
-    },
-    'model': {
-        'filename': 'threat_model.pkl',
-        'contamination': 0.05,
-        'n_estimators': 100,
-        'use_pca': True,
-        'n_components': 10
-    },
-    'feature_extraction': {
-        'window_size': 100,
-        'window_timeout': 30
-    },
-    'alerts': {
-        'high_confidence_threshold': 0.9,
-        'alert_confidence_threshold': 0.8,
-        'alert_file': 'threat_alerts.json'
-    },
-    'paths': {
-        'output_dir': 'data',
-        'models_dir': 'models',
-        'logs_dir': 'logs'
-    },
-    'logging': {
-        'level': 'INFO',
-        'format': '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
-    }
-}
-
 
 def load_config(config_path=None):
     """
-    Load configuration from file and merge with defaults.
+    Load and merge configuration with defaults
 
     Args:
-        config_path: Path to configuration file (JSON)
+        config_path (str, optional): Path to JSON configuration file
 
     Returns:
-        Dictionary containing configuration settings
+        dict: Merged configuration dictionary
     """
-    config = DEFAULT_CONFIG.copy()
+    # Default configuration with comprehensive settings
+    default_config = {
+        'network': {
+            'interface': 'eth0'
+        },
+        'model': {
+            'contamination': 0.05,  # Expected anomaly rate
+            'n_estimators': 100,
+            'filename': 'anomaly_detection_model.pkl',
+            'path': None
+        },
+        'feature_extraction': {
+            'window_size': 100,
+            'window_timeout': 30
+        },
+        'alerts': {
+            'high_confidence_threshold': 0.9,
+            'alert_confidence_threshold': 0.8,
+            'alert_file': 'threat_alerts.json'
+        },
+        'paths': {
+            'output_dir': 'data',
+            'models_dir': 'models',
+            'logs_dir': 'logs'
+        },
+        'logging': {
+            'level': 'INFO',
+            'format': '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+        }
+    }
 
-    # If a config file is specified, load and merge it
-    if config_path and os.path.exists(config_path):
-        try:
-            with open(config_path, 'r') as f:
-                user_config = json.load(f)
+    # If no config path is provided, return default configuration
+    if not config_path or not os.path.exists(config_path):
+        if config_path:
+            logging.warning(f"Config file not found: {config_path}. Using default configuration.")
+        return default_config
 
-            # Deep merge the user config with defaults
-            _deep_update(config, user_config)
-            logging.info(f"Loaded configuration from {config_path}")
-        except Exception as e:
-            logging.warning(f"Failed to load config from {config_path}: {e}")
-            logging.warning("Using default configuration")
+    # Load user configuration
+    try:
+        with open(config_path, 'r') as f:
+            user_config = json.load(f)
 
-    return config
+        # Deep update function to merge configurations
+        def deep_update(original, update):
+            for key, value in update.items():
+                if isinstance(value, dict):
+                    original[key] = deep_update(original.get(key, {}), value)
+                else:
+                    original[key] = value
+            return original
 
+        # Merge user config with default config
+        merged_config = deep_update(default_config.copy(), user_config)
+        return merged_config
 
-def _deep_update(original, update):
-    """
-    Recursively update a dictionary.
-
-    Args:
-        original: Original dictionary to update
-        update: Dictionary with updates to apply
-    """
-    for key, value in update.items():
-        if key in original and isinstance(original[key], dict) and isinstance(value, dict):
-            _deep_update(original[key], value)
-        else:
-            original[key] = value
+    except Exception as e:
+        logging.error(f"Error loading configuration file: {e}")
+        logging.warning("Falling back to default configuration.")
+        return default_config
